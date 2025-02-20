@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Song Suggester",
-  description: "Get personalized song suggestions based on your music taste",
+  title: "AI Music Suggester",
+  description: "Get personalized music suggestions based on your taste and preferences",
+  keywords: ["music", "recommendations", "AI", "playlist", "generator"],
+  authors: [{ name: "Your Name" }],
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
